@@ -217,6 +217,15 @@ h6 {
   display: flex;
 }
 
+.advantage-list {
+  width: calc((100% - 90px) / 4);
+  margin-right: 30px;
+}
+
+.advantage-list:nth-child(4n) {
+  margin-right: 0;
+}
+
 .advantage-title {
   margin-bottom: 10px;
 
