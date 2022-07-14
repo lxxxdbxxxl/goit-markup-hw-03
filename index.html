@@ -23,7 +23,7 @@
   <body>
     <!-- header -->
     <header class="header">
-      <div class="container">
+      <div class="container-header">
         <div class="header-content">
           <nav class="header-nav">
             <a class="logo-box" href="./index.html">
@@ -53,8 +53,8 @@
 
     <main>
       <!-- hero -->
-      <section class="hero">
-        <div class="container">
+      <section class="hero center">
+        <div class="container pading">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <button class="hero-button" type="button">Заказать услугу</button>
         </div>
@@ -62,76 +62,88 @@
 
       <!-- advantage -->
       <section>
-        <h2>Наши преимущества</h2>
-        <ul>
-          <li>
-            <h3 class="advantage-title">Внимание к деталям</h3>
-            <p class="advantage-text">
-              Идейные соображения, а также начало повседневной работы по формированию позиции.
-            </p>
-          </li>
-          <li>
-            <h3 class="advantage-title">Пунктуальность</h3>
-            <p class="advantage-text">
-              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-            </p>
-          </li>
-          <li>
-            <h3 class="advantage-title">Планирование</h3>
-            <p class="advantage-text">
-              Равным образом консультация с широким активом в значительной степени обуславливает.
-            </p>
-          </li>
-          <li>
-            <h3 class="advantage-title">Современные технологии</h3>
-            <p class="advantage-text">
-              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="visually-hidden">Наши преимущества</h2>
+          <ul class="advantage-scroll">
+            <li>
+              <h3 class="advantage-title">Внимание к деталям</h3>
+              <p class="advantage-text">
+                Идейные соображения, а также начало повседневной работы по формированию позиции.
+              </p>
+            </li>
+            <li>
+              <h3 class="advantage-title">Пунктуальность</h3>
+              <p class="advantage-text">
+                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+              </p>
+            </li>
+            <li>
+              <h3 class="advantage-title">Планирование</h3>
+              <p class="advantage-text">
+                Равным образом консультация с широким активом в значительной степени обуславливает.
+              </p>
+            </li>
+            <li>
+              <h3 class="advantage-title">Современные технологии</h3>
+              <p class="advantage-text">
+                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- work -->
       <section>
-        <h2 class="work-title">Чем мы занимаемся</h2>
-        <ul>
-          <li>
-            <a href=""><img src="./images/img1.jpg" alt="разработка сайтов" width="370" /></a>
-          </li>
-          <li>
-            <a href=""><img src="./images/img2.jpg" alt="разработка приложений" width="370" /></a>
-          </li>
-          <li>
-            <a href=""><img src="./images/img3.jpg" alt="разработка макетов" width="370" /></a>
-          </li>
-        </ul>
+        <div class="container center">
+          <h2 class="work-title">Чем мы занимаемся</h2>
+          <ul class="work-scroll">
+            <li class="work-list">
+              <a class="worl-link" href=""
+                ><img src="./images/img1.jpg" alt="разработка сайтов" width="370"
+              /></a>
+            </li>
+            <li class="work-list">
+              <a class="worl-link" href=""
+                ><img src="./images/img2.jpg" alt="разработка приложений" width="370"
+              /></a>
+            </li>
+            <li class="work-list">
+              <a class="worl-link" href=""
+                ><img src="./images/img3.jpg" alt="разработка макетов" width="370"
+              /></a>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- team -->
       <section>
-        <h2 class="team-title">Наша команда</h2>
-        <ul>
-          <li>
-            <img src="./images/igor.jpg" alt="Игорь" width="270" />
-            <h3 class="team-persom">Игорь Демьяненко</h3>
-            <p class="team-text">Product Designer</p>
-          </li>
-          <li>
-            <img src="./images/olga.jpg" alt="Ольга" width="270" />
-            <h3 class="team-persom">Ольга Репина</h3>
-            <p class="team-text">Frontend Developer</p>
-          </li>
-          <li>
-            <img src="./images/nikolay.jpg" alt="Николай" width="270" />
-            <h3 class="team-persom">Николай Тарасов</h3>
-            <p class="team-text">Marketing</p>
-          </li>
-          <li>
-            <img src="./images/mihail.jpg" alt="Михаил" width="270" />
-            <h3 class="team-persom">Михаил Ермаков</h3>
-            <p class="team-text">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container center">
+          <h2 class="team-title">Наша команда</h2>
+          <ul class="team-scroll">
+            <li class="taem-list">
+              <img class="team-photo" src="./images/igor.jpg" alt="Игорь" width="270" />
+              <h3 class="team-persom">Игорь Демьяненко</h3>
+              <p class="team-text">Product Designer</p>
+            </li>
+            <li class="taem-list">
+              <img class="team-photo" src="./images/olga.jpg" alt="Ольга" width="270" />
+              <h3 class="team-persom">Ольга Репина</h3>
+              <p class="team-text">Frontend Developer</p>
+            </li>
+            <li class="taem-list">
+              <img class="team-photo" src="./images/nikolay.jpg" alt="Николай" width="270" />
+              <h3 class="team-persom">Николай Тарасов</h3>
+              <p class="team-text">Marketing</p>
+            </li>
+            <li class="taem-list">
+              <img class="team-photo" src="./images/mihail.jpg" alt="Михаил" width="270" />
+              <h3 class="team-persom">Михаил Ермаков</h3>
+              <p class="team-text">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
