@@ -323,7 +323,31 @@ h6 {
 /* footer  */
 
 .footer {
+  width: 1600px;
+  height: 252px;
+  margin: 0 auto;
   background: #2f303a;
+}
+
+.container-footer {
+  display: flex;
+  align-items: baseline;
+
+  max-width: 1200px;
+  margin: 0 auto;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-logo {
+  display: inline-flex;
+  margin-bottom: 20px;
+}
+
+.address-list:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .address-location {
